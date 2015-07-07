@@ -1,0 +1,33 @@
+.comments{
+	float: left;
+	margin-top: 50px;
+	border-top: 1px solid #999;
+	h2, h3{
+		// color:@gray-light;
+		font-size: 18px;
+	}
+}
+
+.comment-list {
+  &:extend(.list-unstyled all);
+}
+.comment-list ol {
+  list-style: none;
+}
+.comment-form p {
+  &:extend(.form-group all);
+}
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form input[type="url"],
+.comment-form textarea {
+  &:extend(.form-control all);
+}
+.comment-form input[type="submit"] {
+  &:extend(.btn all);
+  &:extend(.btn-primary all);
+}
+
+.comment-form textarea{
+	height: 100px;
+}

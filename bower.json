@@ -1,0 +1,23 @@
+{
+  "name": "Casio",
+  "version": "1.0.0",
+  "homepage": "http://casio.com.br",
+  "authors": [
+    "Alan Basilio <contato@alanbasilio.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "assets/vendor"
+  ],
+  "dependencies": {
+    "modernizr": "latest",
+    "jquery": "1.x.x",
+    "bootstrap": "latest",
+    "respond": "latest",
+    "font-awesome": "latest",
+    "ionicons": "latest"
+  }
+}
